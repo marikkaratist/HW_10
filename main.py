@@ -33,4 +33,5 @@ def page_skill(skill_name):
     return page_content
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
